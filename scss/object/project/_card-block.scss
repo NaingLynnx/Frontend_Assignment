@@ -1,0 +1,47 @@
+.p-block--card {
+
+    margin: -130px 125px 80px;//issue
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+
+    .card-block {
+
+        width: 290px;//issue to ask
+        // width: calc(100% / 4 - 15px);// issue
+        background: #fff;
+        border-radius: 20px;
+        margin-right: 20px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+        &__inner{
+            padding: 40px 20px;
+            .img-box{
+               text-align: center;
+                img {
+                 max-width: 100%;
+                 width: auto;
+                 margin: 0 auto;
+                }
+             }
+        }
+       
+        .txt-box{
+          text-align: center;
+            h3{
+                font-family: 'Archivo Black', sans-serif;
+                font-size: 18px;
+                line-height: 32px;
+            }
+            p{
+                font-family: 'Roboto',sans-serif;
+                font-size: 16px;
+                line-height: 25px;
+                font-weight: 400;
+            }
+        }
+    }
+}
