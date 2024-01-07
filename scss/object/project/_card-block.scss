@@ -1,6 +1,6 @@
 .p-block--card {
 
-    margin: -130px 125px 80px;//issue
+    margin: -130px 0px 80px;//issue
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
@@ -8,8 +8,8 @@
 
     .card-block {
 
-        width: 290px;//issue to ask
-        // width: calc(100% / 4 - 15px);// issue
+        // width: 290px;//issue to ask
+        width: calc(100% / 4 - 15px);// issue
         background: #fff;
         border-radius: 20px;
         margin-right: 20px;

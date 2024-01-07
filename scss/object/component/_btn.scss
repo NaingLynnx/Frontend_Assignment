@@ -13,7 +13,9 @@
       height: 50px;
       justify-content: center;
       align-items: center;
+      font-family: 'Roboto',sans-serif;
       color: #fff;
+
   
       &:hover {
         opacity: .8;
@@ -33,6 +35,29 @@
       a {
         border: 1px solid #e76f51;
         background: #e76f51;
+      }
+    }
+    
+    &--more {
+      max-width: 185px;
+      margin: 0 auto;
+  
+      a {
+        background: rgba(141, 141, 141, .1);
+        border: none;
+        color: #8d8d8d;
+       
+      }
+    }
+  
+    &--view {
+      width: 205px;
+      margin: 0 auto;
+      height: 50px;
+      a {
+        border: 1px solid #e76f;
+        background: transparent;
+        color: #e76f51;
       }
     }
   }
