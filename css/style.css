@@ -254,7 +254,7 @@ a {
   padding: 40px 20px;
 }
 .p-block--card .card-block__inner .img-box {
-  text-align: center;
+  display: block;
 }
 .p-block--card .card-block__inner .img-box img {
   max-width: 100%;
